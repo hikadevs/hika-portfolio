@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Hika — Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="logo" href="#">Hika</a>
+			<nav id="site-nav" class="site-nav" aria-label="Primary">
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero container">
+			<div class="hero-inner">
+				<h1>Hi, I'm Hika.</h1>
+				<p class="lead">Designer & developer building clean, accessible web experiences.</p>
+				<p><a class="cta" href="#projects">See my work</a></p>
+			</div>
+		</section>
+
+		<section id="about" class="about container">
+			<h2>About</h2>
+			<p>I build front-end interfaces and small web apps. I enjoy clean UI, performance, and good UX.</p>
+		</section>
+
+		<section id="projects" class="projects container">
+			<h2>Projects</h2>
+			<div class="project-grid">
+				<article class="project-card">
+					<img src="assets/images/project1.png" alt="Project one screenshot" class="project-image">
+					<div class="project-body">
+						<h3>Project One</h3>
+						<p class="muted">A small demo web app showcasing animations and responsive layout.</p>
+						<a class="project-link" href="#">View project</a>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<img src="assets/images/project2.png" alt="Project two screenshot" class="project-image">
+					<div class="project-body">
+						<h3>Project Two</h3>
+						<p class="muted">A portfolio template and CMS-free site example.</p>
+						<a class="project-link" href="#">View project</a>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<img src="assets/images/project3.png" alt="Project three screenshot" class="project-image">
+					<div class="project-body">
+						<h3>Project Three</h3>
+						<p class="muted">Interactive data visualization built with vanilla JS.</p>
+						<a class="project-link" href="#">View project</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact" class="contact container">
+			<h2>Contact</h2>
+			<p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a></p>
+		</section>
+	</main>
+
+	<footer class="site-footer container">
+		<p id="site-year">© <span id="year">2026</span> Hika. Built with ♥</p>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
